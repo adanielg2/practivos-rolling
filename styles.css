@@ -1,0 +1,95 @@
+.card-body{
+
+    background-color: rgb(184, 171, 171);
+    height: 520px;
+    width: 316px;
+    display: flex;        
+    flex-direction: column; 
+    justify-content: start;
+    /* align-items: center; */    
+    border-radius: 4px;
+    border-style: ridge;
+    /* flex-direction: column; */
+    /* width: 800px; */
+    /* background-color: blueviolet; */
+
+}
+.card-Pict img{
+    display: flex;   
+    position: relative;
+    left: 2%;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    
+    
+}
+.card-botones{
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    
+    /* flex-direction: column; */
+}
+.Botones{
+    
+    position: relative;    
+    margin: 5px;
+    justify-content: center;
+    display: flex;    
+    align-items: center;
+    height: 20px;
+    width: 70px;
+    border-radius: 8px;
+    border: 1px;
+    font-size: small;
+    /* color: rgb(236, 239, 243); */
+}
+.Botones a{
+    text-decoration: none;
+    color: rgb(112, 112, 117);
+
+}
+.boton-ir{ 
+    background-color: rgb(126, 120, 111);
+    margin-left: 30%;
+    margin-top: 20px;   
+    display: flex;
+    justify-content: center;    
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px;
+    align-items: center;
+    font-size: large;
+    color: white;
+}
+.parrafo-tit{
+    text-align:start;
+    margin: 3px;
+}
+.parrafo-cont{
+    margin: 3px;
+}
+  /* @media (max-width:768px)
+{
+    .card-body{
+        height: 300px;
+        width: 550px;
+        display: flex;
+        flex-flow: wrap;
+        /* justify-content: left;  */
+        /* justify-items: start;  */
+        
+        
+    /* }
+        .card-botones{
+        align-self: flex-start;
+        flex-flow: wrap;
+        margin-left: 10px;
+    }
+    .boton-ir{
+       
+    
+    }
+} */ 
